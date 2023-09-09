@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <div>
+        <a href="../index.html"><h2>Volver atras</h2></a>
+    </div>
+    <h1>FORMULARIO</h1>
+    <p>-Llene el siguiente formulario para saber su equipo favorito</p>
+    <form>
+        <label for="nombre">Igrese su nombre:</label>
+        <input type="text" id="nombre" placeholder="nombre" name="nombre" maxlength="25">
+        <br>
+        <label for="email">Ingrese su email:</label>
+        <input type="email" id="email" placeholder="email" name="email">
+        
+        <label for="con">contraseña</label>
+        <input type="password" id="con" name="contraseña" placeholder="contraseña">
+        <br>
+        <label for="edad">que edad tiene:</label>
+        <input type="number" id="edad" name="edad" placeholder="edad" max="100" min="0">
+        <br>
+        <label for="formulario">escoja su equipo de futbol:</label>
+        <select name="equipo" id="formulario" name="equipo">
+            <option value="1" selected>Colombia</option>
+            <option value="2">Brasil</option>
+            <option value="3">Argentina</option>
+            <option value="4">Bolivia</option>
+            <option value="5">Venezuela</option>
+            <option value="6">Paraguay</option>
+            <option value="7">Chile</option>
+            <option value="8">Peru</option>
+            <option value="9">Ecuador</option>
+            <option value="10">Uruguay</option>
+        </select>
+        <br>
+        <label for="tel">su numero telefonico</label>
+        <input type="tel" id="tel" placeholder="telefono" name="telefono" >
+        <br>
+        <label for="fecha">En que fecha esta diligenciando este formulario:</label>
+        <input type="date" id="fecha" name="fecha">
+        <br>
+        <label for="com">si tiene una queja del formulario dijitela aqui</label>
+        <textarea name="comentario" id="com" cols="60" rows="2" maxlength="500" ></textarea>
+        <br>
+        <button type="submit">Enviar</button><button type="reset">Borrar</button>
+
+    </form>
+</body>
+</html>
